@@ -15,9 +15,9 @@ Submission files should contain two columns: `id` and `Offer Accepted`.
 
 ## Dataset Description
 
-- train.csv - the training set
-- test.csv - the test set
-- sample.csv - a sample submission file in the correct format
+- Datasets/train.csv - the training set
+- Datasets/test.csv - the test set
+- Datasets/sample.csv - a sample submission file in the correct format
 
 ## Columns Description
 
@@ -86,6 +86,11 @@ and their names are listed below:
 - Linear Support Vector Machine
 - XGBoost
 
-## Final Model
+## Final Model & Scores
 
 The final model that was used is the Random Forest Classifier after hyperparameter tuning using GridSearchCV.
+
+Mean F1 score was used as the evaluation metric and the final scores were:
+
+- Datasets/train.csv - 0.64072
+- Datasets/test.csv - 0.63342
